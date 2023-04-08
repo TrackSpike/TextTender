@@ -1,4 +1,5 @@
 # Text Tender: AI-Powered iMessage Autoresponder
+![image](https://user-images.githubusercontent.com/10097742/230736859-42c48805-1fe0-4a4b-8c06-11c5baa3a490.png)
 
 Are you tired of having to interact with friends and family?
 
@@ -39,5 +40,7 @@ To get started you need to create a `config.json` file in the root directory.
 We welcome contributions from the community! If you have a feature request, bug report, or want to contribute code, please feel free to open an issue or submit a pull request.
 
 ## Disclaimer
+
+**Text Tender is meant to be a joke and fun proof of concept.** Always get permission from people and let them know they are chatting with a LLM.
 
 Text Tender utilizes OpenAI's Chat GPT, which is an AI language model. As such, it may occasionally produce unexpected or inappropriate responses. Please use Text Tender responsibly and always review its responses when possible. The developers of Text Tender are not responsible for any misuse or consequences arising from the use of this application.
