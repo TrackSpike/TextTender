@@ -1,5 +1,7 @@
 # Text Tender: AI-Powered iMessage Autoresponder
 
+Are you tired of having to interact with friends and family?
+
 Text Tender is a Python-based application that integrates OpenAI's Chat GPT into Apple's Messages app, providing an intelligent and convenient autoresponder for your iMessages while you're away. Harnessing the power of cutting-edge language models, Text Tender ensures that your contacts receive timely, relevant, and engaging replies.
 
 ## Key Features
@@ -11,13 +13,18 @@ Text Tender is a Python-based application that integrates OpenAI's Chat GPT into
 
 ## Getting Started
 
-## Customizing Text Tender
+To get started you need to create a `config.json` file in the root directory.
 
-Text Tender comes with a flexible `config.json` file that allows you to customize its behavior to suit your needs. Adjust settings such as:
-
-- Response delay: Modify the delay before sending a response to mimic human typing speed
-- Message filtering: Set specific keywords or phrases to trigger the autoresponder
-- Custom responses: Predefine certain replies for specific situations or contacts
+```json
+{
+  "OPENAI_API_KEY": "Your open AI key",
+  "RECIPIENT_NUMBER": "+1xxxxxxxxxx",
+  "YOUR_NUMBER": "+1xxxxxxxxxx",
+  "SYSTEM_MESSAGE": "Pretend you are a person texting their friend. Respond to the messages as if you are texting.",
+  "TEST_MODE": false,
+  "CONTEXT_DEPTH": 10
+}
+```
 
 ## Contributing
 
