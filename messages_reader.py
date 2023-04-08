@@ -10,3 +10,12 @@ class Message:
 
     def __str__(self):
         return f"User ID: {self.user_id}\n Message: {self.message}\n Date: {self.date}\n Service: {self.service}\n Account: {self.account_number}\n Is from me: {self.is_from_me}\n"
+
+    def __repr__(self):
+        return self.__str__()
+
+    def __hash__(self):
+        return hash(self.__str__())
+
+    def __eq__(self, other):
+        return self.__str__() == other.__str__()
