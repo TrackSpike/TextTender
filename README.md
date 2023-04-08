@@ -17,11 +17,19 @@ To get started you need to create a `config.json` file in the root directory.
 
 ```json
 {
-  "OPENAI_API_KEY": "Your open AI key",
-  "RECIPIENT_NUMBER": "+1xxxxxxxxxx",
+  "OPENAI_API_KEY":
+  "RECIPIENTS": {
+    "+1xxxxxxxxxx": {
+      "NAME": "Sally",
+      "SYSTEM_MESSAGE": "Pretend you are a 24 year old texting his friend. Respond to the messages as if you are texting."
+    },
+    "+1xxxxxxxxxx": {
+      "NAME": "John",
+      "SYSTEM_MESSAGE": "Pretend you are a 24 year old texting his friend. Respond to the messages as if you are texting."
+    }
+  },
   "YOUR_NUMBER": "+1xxxxxxxxxx",
-  "SYSTEM_MESSAGE": "Pretend you are a person texting their friend. Respond to the messages as if you are texting.",
-  "TEST_MODE": false,
+  "TEST_MODE": true,
   "CONTEXT_DEPTH": 10
 }
 ```
