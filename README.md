@@ -35,9 +35,9 @@ To get started you need to create a `config.json` file in the root directory.
 }
 ```
 
-## Contributing
+## Future Plans
 
-We welcome contributions from the community! If you have a feature request, bug report, or want to contribute code, please feel free to open an issue or submit a pull request.
+Currently it uses the past 20 messages as context for the model. It would be fun to explore a vector database that can provide improved context.
 
 ## Disclaimer
 
